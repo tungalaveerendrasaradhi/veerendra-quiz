@@ -23,7 +23,7 @@ let bits = [
 },
   {
   numb: 3,
-  question: "The process where characteristics are transmitted from parent to offsprings is called?",
+  question: "The process where characteristics are transmitted from parent to offsprings is called ?",
   answer: "Heredity",
   options: [
    "Variation",
