@@ -23,13 +23,13 @@ let bits = [
 },
   {
   numb: 3,
-  question: "Some species of which of the below kinds of organisms are employed as biopesticides?",
-  answer: "1 only",
+  question: "The process where characteristics are transmitted from parent to offsprings is called?",
+  answer: "Heredity",
   options: [
-   "1 only",
-   "2 and 3 only",
-   "1 and 3 only",
-    "1, 2 and 3"
+   "Variation",
+    "Heredity",
+    "Gene",
+    "Allele"
   ]
 },
   {
