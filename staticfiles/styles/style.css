@@ -1,26 +1,54 @@
-
+body,html{
+    height: 100%;
+}
 
 body{
-    background: url("https://raw.githubusercontent.com/tungalaveerendrasaradhi/veerendra-quiz/main/img.PNG");
+   background: url(https://github.com/tungalaveerendrasaradhi/veerendra-quiz/blob/main/newone.jpeg?raw=true);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    height: 900px;
-    background-color: transparent;
+  height: 100%;
+  background-position: center;
 }
 .heading{
-     padding-top: 50px;
-     color: black;
-     font-size: 50px;
+     padding-top: 100px;
+     color: white;
+     font-family: arial;
+     font-weight: 500;
      padding-left: 20px;
+     padding-bottom: 20px;
 }
+
+@media (min-width:320px)  { 
+ .info_box.activeInfo,
+.quiz_box.activeQuiz,
+.result_box.activeResult/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:480px)  {
+ .info_box.activeInfo,
+.quiz_box.activeQuiz,
+.result_box.activeResult /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px)  {
+ .info_box.activeInfo,
+.quiz_box.activeQuiz,
+.result_box.activeResult /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px)  {
+ .info_box.activeInfo,
+.quiz_box.activeQuiz,
+.result_box.activeResult /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) {
+ .info_box.activeInfo,
+.quiz_box.activeQuiz,
+.result_box.activeResult /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { 
+ .info_box.activeInfo,
+.quiz_box.activeQuiz,
+.result_box.activeResult/* hi-res laptops and desktops */ }
 
 .start_btn,
 .info_box,
 .quiz_box,
 .result_box{
     top: 50%;
-    left: 40%;
+    left: 45%;
     position: absolute;
 }
 
@@ -122,46 +150,6 @@ body{
     font-weight: 600;
 }
 
-/*.quiz_box header .timer{
-    color: #004085;
-    background: #cce5ff;
-    border: 1px solid #b8daff;
-    height: 45px;
-    padding: 0 8px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 145px;
-}
-
-.quiz_box header .timer .time_left_txt{
-    font-weight: 400;
-    font-size: 17px;
-    user-select: none;
-}
-
-.quiz_box header .timer .timer_sec{
-    font-size: 18px;
-    font-weight: 500;
-    height: 30px;
-    width: 45px;
-    color: #fff;
-    border-radius: 5px;
-    line-height: 30px;
-    text-align: center;
-    background: #343a40;
-    border: 1px solid #343a40;
-    user-select: none;
-}
-
-.quiz_box header .time_line{
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    height: 3px;
-    background: #007bff;
-}*/
 section{
     padding: 25px 30px 20px 30px;
     background: #fff;
@@ -299,7 +287,7 @@ footer button.show{
 
 .result_box .icon{
     font-size: 100px;
-    color: #007bff;
+    color: gold;
     margin-bottom: 10px;
 }
 
